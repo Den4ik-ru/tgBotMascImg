@@ -2,7 +2,7 @@ import io
 import telebot
 from PIL import Image
 
-bot = telebot.TeleBot("6895663582:AAFujN7gxg3l6a6nv_TvIyN83mop5VtoKjo")
+bot = telebot.TeleBot("*")
 
 @bot.message_handler(commands=['start'])
 def start(message):
